@@ -17,5 +17,6 @@ nameForm.addEventListener("submit", function (e) {
     {
         alert("Invalid Input");
     }
+    nameForm.elements.family.value = '';
   });
 

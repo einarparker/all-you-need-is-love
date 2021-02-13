@@ -3,8 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
   background-color: rgb(248, 240, 233);
 }
 
@@ -41,26 +42,33 @@ main {
   justify-content: center;
   align-content: center;
   border: 1px solid blue;
-  font-family: Indie Flower;
-  font-size: 3em;
+  font-family: Emilys Candy;
+  font-size: 2em;
 }
 .formcontainer {
   display: flex;
   justify-content: center;
+  padding: 10px;
+
   border: 1px solid red;
-  font-family: Indie Flower;
+}
+.labelbox {
+  display: flex;
+  justify-content: center;
+  color: ivory;
 }
 .buttonbox {
   display: flex;
   justify-content: center;
   border: 1px solid greenyellow;
-  font-family: Indie Flower;
+  font-family: Emilys Candy;
   font-size: 2em;
 }
 button {
-  font-family: Indie Flower;
-  font-size: 0.3em;
+  font-family: Emilys Candy;
+  font-size: 0.5em;
   margin-top: 10px;
+  padding: 10px;
   border: none;
   border-radius: 24px;
   background-color: rgb(110, 207, 252);
@@ -70,16 +78,40 @@ button:hover {
   background-color: rgb(1, 82, 119);
 }
 label {
-  padding: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
   background-color: rgb(110, 207, 252);
   border-radius: 24px;
 }
 input {
+  display: flex;
+  background-color: rgb(110, 207, 252);
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  outline-style: none;
   border: none;
+
+  color: ivory;
+  font-family: Emilys Candy;
+  font-size: 1em;
+}
+
+.inputbox {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: top 10px;
+  font-family: Emilys Candy;
+  font-size: 0.5em;
   border-radius: 24px;
-  background-color: lightskyblue;
+  background-color: rgb(110, 207, 252);
   width: 20em;
   height: 2em;
+}
+.inputbox:hover {
+  box-shadow: 0 1px 6px 0 rgba(1, 82, 119, 0.7);
+  border-color: rgba(223, 225, 229, 0);
 }
 @media (max-width: 800px) {
   .zonkbox {
@@ -88,5 +120,22 @@ input {
   img {
     max-width: 90%;
     max-height: 90%;
+  }
+  .inputbox {
+    max-width: 50%;
+  }
+
+  .labelbox {
+    max-width: 50%;
+    font-size: 70%;
+  }
+  .buttonbox {
+    max-width: 50%;
+    font-size: 90%;
+    border-radius: 5px;
+  }
+
+  .formbox {
+    max-width: 100%;
   }
 }
