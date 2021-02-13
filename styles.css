@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Permanent+Marker&display=swap');
+.animbox {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+.zonkbox{
+    display:flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Permanent Marker;
+  
+}
+.zonk{
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-size: 7em;
+    font-weight: 200;
+}
