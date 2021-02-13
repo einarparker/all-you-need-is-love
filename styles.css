@@ -2,39 +2,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Permanent+Marker&display=swap");
 .main {
-
   display: flex;
   width: 70vw;
   margin-right: 50px;
   justify-content: center;
-  
 }
 
 .animbox {
-    display: flex;
-    justify-content: center;
-    width: 70vw;
+  display: flex;
+  justify-content: center;
+  width: 70vw;
   border: 1px solid red;
 }
 .zonkbox {
-    display: flex;
-    width: 70vw;
-    justify-content: center;
+  display: flex;
+  width: 70vw;
+  justify-content: center;
   font-family: Permanent Marker;
   font-size: 6em;
   font-style: normal;
   font-weight: 200;
   border: 1px solid blue;
 }
-@media(max-width:700px){
-    .zonkbox {
-        font-size: 3em;
-    }
-    img{
-        max-width: 90%;
-        max-height: 90%;
-        
-
-        
-    }
+@media (max-width: 800px) {
+  .zonkbox {
+    font-size: 3em;
+  }
+  img {
+    max-width: 90%;
+    max-height: 90%;
+  }
 }
