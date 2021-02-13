@@ -15,14 +15,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(47, 154, 255);
+  
 }
 
 .animbox {
   display: flex;
   justify-content: center;
   width: 70vw;
-  border: 1px solid red;
+  
 }
 .zonkbox {
   display: flex;
@@ -33,7 +33,7 @@ main {
   font-size: 6em;
   font-style: normal;
   font-weight: 200;
-  border: 1px solid blue;
+  
 }
 .formbox {
   display: flex;
@@ -41,7 +41,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  border: 1px solid blue;
+ 
   font-family: Emilys Candy;
   font-size: 2em;
 }
@@ -50,7 +50,7 @@ main {
   justify-content: center;
   padding: 10px;
 
-  border: 1px solid red;
+  
 }
 .labelbox {
   display: flex;
@@ -60,7 +60,7 @@ main {
 .buttonbox {
   display: flex;
   justify-content: center;
-  border: 1px solid greenyellow;
+  
   font-family: Emilys Candy;
   font-size: 2em;
 }
@@ -73,9 +73,16 @@ button {
   border-radius: 24px;
   background-color: rgb(110, 207, 252);
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 button:hover {
   background-color: rgb(1, 82, 119);
+  border: none;
+  outline-style: none;
+
+}
+button:active{
+  transform: translateY(2px);
 }
 label {
   padding: 10px;
