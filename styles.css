@@ -14,11 +14,12 @@
     justify-content: center;
     flex-direction: row;
     font-family: Permanent Marker;
+    font-size: 7em;
+    font-style: normal;
+        font-weight: 200;
   
 }
 .zonk{
     font-family: Permanent Marker;
-    font-style: normal;
-    font-size: 7em;
-    font-weight: 200;
+   
 }
