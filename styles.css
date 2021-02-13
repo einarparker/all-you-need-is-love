@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  margin: none;
+  padding: none;
+  background-color: rgb(248, 240, 233);
+}
 
-.main {
+main {
   display: flex;
-  width: 70vw;
-  margin-right: 0px;
+  width: 95vw;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(47, 154, 255);
 }
 
 .animbox {
@@ -20,10 +28,58 @@
   width: 70vw;
   justify-content: center;
   font-family: Permanent Marker;
+  color: hotpink;
   font-size: 6em;
   font-style: normal;
   font-weight: 200;
   border: 1px solid blue;
+}
+.formbox {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid blue;
+  font-family: Indie Flower;
+  font-size: 3em;
+}
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  font-family: Indie Flower;
+}
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  border: 1px solid greenyellow;
+  font-family: Indie Flower;
+  font-size: 2em;
+}
+button {
+  font-family: Indie Flower;
+  font-size: 0.3em;
+  margin-top: 10px;
+  border: none;
+  border-radius: 24px;
+  background-color: rgb(110, 207, 252);
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  background-color: rgb(1, 82, 119);
+}
+label {
+  padding: 5px;
+  background-color: rgb(110, 207, 252);
+  border-radius: 24px;
+}
+input {
+  border: none;
+  border-radius: 24px;
+  background-color: lightskyblue;
+  width: 20em;
+  height: 2em;
 }
 @media (max-width: 800px) {
   .zonkbox {
