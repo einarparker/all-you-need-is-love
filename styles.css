@@ -99,6 +99,10 @@ input {
   width: 20em;
   height: 2em;
 }
+.inputbox:hover {
+  box-shadow: 0 1px 6px 0 rgba(1, 82, 119, 0.7);
+  border-color: rgba(223, 225, 229, 0);
+}
 @media (max-width: 420px) {
   .zonkbox {
     font-size: 3em;
