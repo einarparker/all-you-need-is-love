@@ -87,6 +87,18 @@ input {
   text-align: center;
   border-bottom: 2px solid ivory;
 }
+input .submit{
+  font-family: Emilys Candy;
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 24px;
+  background-color: rgb(110, 207, 252);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+
+}
 .inputbox {
   display: flex;
   justify-content: center;
