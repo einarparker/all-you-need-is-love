@@ -1,0 +1,1 @@
+document.getElementById("zonk").innerHTML = localStorage.getItem("n");
